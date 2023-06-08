@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding-top: 50px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid seagreen;
+}
+li {
+  list-style: none;
+}
+a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.menu-item {
+  margin: 3px;
+}
+.menu-item a {
+  padding: 10px 20px;
+  border: 2px solid silver;
+}
+h1 {
+  margin: 10px;
+}
+.active {
+  background-color: seagreen;
+  color: white;
+}
+
+.post {
+  padding: 10px;
+  border: 1px solid silver;
+  margin: 5px;
+}
+.post-input-text {
+  margin: 20px 5px;
+}
+.count-button {
+  margin-left: 10px;
+  border: 1px solid seagreen;
+  background-color: white;
+  cursor: pointer;
+  padding: 3px;
+  font-size: 12px;
+}
+.count-input {
+  outline: none;
+}
+.warning {
+  margin: 10px 5px;
+  color: rgb(151, 42, 42);
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.product-card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid seagreen;
+  margin: 5px;
+  width: 30%;
+  height: 220px;
+}
+h2 {
+  font-size: 20px;
+}
+.wrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.filters {
+  width: 20%;
+}
+.new-filter {
+  margin-top: 10px;
+}
+.filters-list {
+  border: 1px solid seagreen;
+  padding: 7px;
+  margin-top: 5px;
+}
+.product-title {
+  margin-bottom: 10px;
+}
+.none {
+  display: none;
+}
+.confirm-filters-btn {
+  background-color: seagreen;
+  border: 1px silver solid;
+  padding: 5px;
+  width: 100%;
+  margin: 10px 0;
+  cursor: pointer;
+}
